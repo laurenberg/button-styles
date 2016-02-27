@@ -11,3 +11,131 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+.btn {
+  padding: 0.4em 0.75em 0.3em;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border: 3px;
+}
+
+.btn-subtle {
+  padding: 0.4em 0.75em 0.3em;
+  display: inline-block;
+  background-color: #ccc;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.btn-ghost {
+  padding: 0.4em 0.75em 0.3em;
+  border-width: 3px;
+  border-color: black;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+  border-style: solid;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.btn-warning {
+  padding: 0.4em 0.75em 0.3em;
+  background-color: #f00;
+  border-radius: 8px;
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+/*.btn-primary-small {
+  padding: 0.4em 0.75em 0.3em;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  display: block;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.btn-subtle-small {
+  padding: 0.4em 0.75em 0.3em;
+  background-color: #ccc;
+  border-radius: 8px;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.btn-ghost-small {
+  padding: 0.4em 0.75em 0.3em;
+  border-width: 3px;
+  display: block;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.btn-warning-small {
+  padding: 0.4em 0.75em 0.3em;
+  background-color: #f00;
+  border-radius: 8px;
+  color: #000;
+  display: block;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.btn-primary-large {
+  padding: 0.4em 0.75em 0.3em;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.btn-subtle-large {
+  padding: 0.4em 0.75em 0.3em;
+  background-color: #ccc;
+  border-radius: 8px;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.btn-ghost-large {
+  padding: 0.4em 0.75em 0.3em;
+  border-width: 3px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.btn-warning-large {
+  padding: 0.4em 0.75em 0.3em;
+  color: #fff;
+  background-color: #f00;
+  border-radius: 8px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+*/
+.btn:hover {
+  background-color: #333;
+}
