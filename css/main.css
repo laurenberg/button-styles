@@ -3,10 +3,14 @@ html {
   font: normal 100%/1.5 sans-serif;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 div {
+  margin: 0.4em 0.75em 0.3em;
   padding: 0.4em 0.75em 0.3em;
   text-align: center;
-  display: inline-block;
   text-decoration: none;
 }
 
@@ -19,13 +23,16 @@ div {
   text-align: center;
   text-decoration: none;
   font-size: 1.125rem;
-  border: 3px;
+  border: solid 3px;
+  border-color: #fff;
+  margin: 0.3em 2em;
 }
 
 .btn-subtle {
   color: #fff;
   font-size: 1.125rem;
   text-align: center;
+  background-color: #ccc;
 
 }
 
@@ -41,10 +48,9 @@ div {
 
 .btn-warning {
   background-color: #f00;
-  color: #000;
+  color: #fff;
   font-size: 1.125rem;
   text-align: center;
-
 }
 
 .btn-small {
@@ -53,80 +59,6 @@ div {
 
 .btn-big {
   font-size: 1.5rem;
-}
-/* .btn-primary-small {
-  padding: 0.4em 0.75em 0.3em;
-  color: #fff;
-  background-color: #000;
-  border-radius: 8px;
-  display: block;
-  text-decoration: none;
-  font-size: 0.875rem;
-}
-
-.btn-subtle-small {
-  padding: 0.4em 0.75em 0.3em;
-  background-color: #ccc;
-  border-radius: 8px;
-  color: #fff;
-  display: block;
-  text-decoration: none;
-  font-size: 0.875rem;
-}
-
-.btn-ghost-small {
-  padding: 0.4em 0.75em 0.3em;
-  border-width: 3px;
-  display: block;
-  text-decoration: none;
-  font-size: 0.875rem;
-}
-
-.btn-warning-small {
-  padding: 0.4em 0.75em 0.3em;
-  background-color: #f00;
-  border-radius: 8px;
-  color: #000;
-  display: block;
-  text-decoration: none;
-  font-size: 0.875rem;
-}
-
-.btn-primary-large {
-  padding: 0.4em 0.75em 0.3em;
-  display: block;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.btn-subtle-large {
-  padding: 0.4em 0.75em 0.3em;
-  background-color: #ccc;
-  border-radius: 8px;
-  color: #fff;
-  display: block;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.btn-ghost-large {
-  padding: 0.4em 0.75em 0.3em;
-  border-width: 3px;
-  display: block;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.btn-warning-large {
-  padding: 0.4em 0.75em 0.3em;
-  color: #fff;
-  background-color: #f00;
-  border-radius: 8px;
-  display: block;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-*/
 
 .btn-subtle:hover {
   background-color: #333;
